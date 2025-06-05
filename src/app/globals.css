@@ -2,8 +2,8 @@
 @plugin "daisyui";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: theme(colors.white);
+  --foreground: theme(colors.base-300);
 }
 
 @theme inline {
@@ -15,8 +15,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: theme(colors.base-300);
+    --foreground: theme(colors.white);
   }
 }
 
