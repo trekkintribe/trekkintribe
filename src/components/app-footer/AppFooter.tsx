@@ -1,5 +1,5 @@
 import React from "react";
-import { footerLinks } from "@/assets/data/links.module";
+import { footerLinks } from "@/data/links.module";
 
 export default function AppFooter() {
   return (
