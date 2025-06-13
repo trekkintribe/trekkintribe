@@ -12,7 +12,7 @@ function AppBar() {
         transition={{ duration: 0.5, ease: "easeInOut", delay: 0.05 }}
         className="fixed inset-x-0 top-0 z-10 container mx-auto p-4"
       >
-        <div className="navbar rounded-xl bg-base-100 px-4 shadow-sm">
+        <div className="navbar rounded-xl bg-base-100 px-2.5 md:px-4 shadow-sm">
           <div className="flex-1">
             <div className="inline-flex items-center">
               <MobileAppBar />
@@ -21,7 +21,7 @@ function AppBar() {
               </Link>
             </div>
           </div>
-          <nav className="flex-none">
+          <nav className="hidden flex-none md:block">
             <ul className="menu menu-horizontal">
               <li>
                 <a>Home</a>

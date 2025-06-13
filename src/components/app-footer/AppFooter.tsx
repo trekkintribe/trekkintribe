@@ -4,7 +4,7 @@ import { footerLinks } from "@/data/links.module";
 export default function AppFooter() {
   return (
     <footer className="bg-base-200">
-      <div className="container mx-auto footer p-10 text-base-content sm:footer-horizontal">
+      <div className="container mx-auto footer px-4 py-10 text-base-content sm:footer-horizontal">
         <aside>
           <svg
             width="50"

@@ -1,5 +1,5 @@
-// import Image from "next/image";
-import { HeroSection } from "@/components";
+import React from "react";
+import { HeroSection, HeadingSection, DestinationSlider } from "@/components";
 
 export default function Home() {
   return (
@@ -15,6 +15,14 @@ export default function Home() {
           </p>
         </div>
       </HeroSection>
+
+      <HeadingSection
+        tag="h2"
+        title="trending treks"
+        description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae voluptatum atque maxime vero veniam velit illo molestias eveniet alias magni"
+      >
+        <DestinationSlider />
+      </HeadingSection>
     </main>
   );
 }

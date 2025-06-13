@@ -26,12 +26,13 @@ function HeroSection({
             src={img}
             alt={imgDes || "Banner Image"}
             fill
+            priority
             fetchPriority="high"
             className="object-cover"
           />
         </div>
       )}
-      <div className="absolute inset-0 hero-content z-0 bg-base-100/40 text-center">
+      <div className="absolute inset-0 flex size-full items-center justify-center bg-base-100/40 text-center">
         {children}
       </div>
     </motion.section>
